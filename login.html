@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>杨超文的个人网站</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+        <div class="content">
+
+            <div class="login-top">
+                <h1>欢迎来到杨超文的个人网站</h3>
+            </div>
+                
+            <div class="login-middle">
+                        <div class="login-content">
+                           <h3 class="login-tit">用户登录</h3>
+                           <div class="login-form">
+                                <form id="login-form" name="login-form" action="https://ac.zzidc.com/cas/login?mode=torlogin&amp;service=https://mc.zzidc.hk/" method="POST" target="rlogin">
+                                <div id="msg" class="loginerrors" style="text-align:left;border:1px solid #f6c8b5;background:#fceee8;padding-left:10px;width:auto;color:#d21033;line-height:30px;height:30px;margin-bottom:10px;display:none"></div>
+                                <div class="login-name mbottom16">
+                                  <input id="username" name="username" class="lg-inpname" tabindex="1" placeholder="用户名/手机号/邮箱" accesskey="n" type="text" value="" size="25" autocomplete="off"></div>
+                              <div class="login-name">
+                                  <input id="password" name="password" class="lg-inpname" tabindex="2" placeholder="登录密码" accesskey="p" type="password" value="" size="25" autocomplete="off"></div>
+                              <div class="login-sub">
+                                 <a href="javascript:login();" class="login-submita">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                              </div>
+                              <input type="hidden" name="uuid" value="" id="uuid"> 
+                             <input type="hidden" name="lt" value="" id="lt">
+                             <input type="hidden" name="execution" value="" id="execution">
+                             <input type="hidden" name="_eventId" value="submit">
+                              </form></div>
+                           <div class="login-pass">
+                                <a href="https://www.zzidc.hk:443/main/member/initForgetPasswd.action" class="forget-lgpass">忘记密码？</a>
+                           </div>                
+                        </div>
+                     </div>
+                
+            <div class="no-userinfo">
+                        还没有账号？<a href="https://www.zzidc.hk:443/main/member/initRegister.action" class="ms-reg">立即注册</a>                       
+            </div>
+            <div class="xian"></div>
+        </div>
+      
+    
+</body>
+</html>

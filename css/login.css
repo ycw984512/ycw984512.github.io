@@ -1,0 +1,63 @@
+body{
+        background:url("../images/bodybgc.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 800px;
+        height: 100%;
+
+    }
+
+.content{
+    margin-top: 100px;
+}
+    .login-top{
+    width: 100%;
+    height: 100px;
+}
+.login-top h1{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 80px;
+}
+
+    /*登录开始*/
+
+.login-middle{text-align:center}
+.login-content{display:inline-block;border-radius:10px;background:#ffffff;width:454px;min-height: 398px;}
+.login-tit{width:410px;margin:0 auto;border-bottom:3px solid #e8e8e8;font-size:20px;color:#333;text-align:center;line-height:85px}
+.login-form{width:284px;margin:0 auto;margin-top:48px}
+.login-name{margin:0 auto;width:284px;height:42px}
+.lg-inpname{width:270px;height:40px;border:1px solid #dddddd;border-radius:3px;padding-left:12px;line-height:40px;font-size:14px;color:#333}
+.mbottom16{margin-bottom:16px;}
+.login-sub{margin:0 auto;margin-top:20px}
+.login-submita{display:block;width:284px;height:42px;background:#4251b6;border-radius:3px;text-align:center;line-height:42px;color:#fff;font-size:15px;}
+.login-submita:hover{background:#4a5ac3;color:#fff}
+.login-pass{height:58px;line-height:58px;text-align:right;width:284px;margin:0 auto}
+.forget-lgpass{font-size:14px;color:#4251b6;line-height:58px;display:inline-block;margin-right:4px}
+.forget-lgpass:hover{color:#4251b6;text-decoration:underline}
+.other-login{padding: 29px 22px 26px 22px;background:#e3e5f4;border-radius:0 0 10px 10px;position:relative;}
+.left-dashed{width:160px;height:1px;background:url(../images/m20170328img3.png) no-repeat;position:absolute;top:-1px;left:0}
+.middle-ft{color:#959595;font-size:14px;height:12px;width:134px;position:absolute;top:-10px;left:160px}
+.right-dashed{width:160px;height:1px;background:url(../images/m20170328img3.png) no-repeat;position:absolute;top:-1px;right:0}
+.thirth-login{display:inline-block;width:120px;height:42px;background:#fff;border-radius:3px;text-align:center;font-size:14px;color:#333;line-height:42px}
+.weixin-icon{display:inline-block;width:21px;height:18px;background:url(../images/m20170328img4.png) no-repeat;margin-right:3px;vertical-align:middle}
+.thirth-login:hover{background:#4251b6;color:#fff;}
+.weixin-login:hover .icon-ps1{background-position:0 -18px}
+.icon-ps2{background-position:0 -36px;margin-top:-3px}
+.qq-login:hover .icon-ps2{background-position:0 -54px}
+.icon-ps3{background-position:0 -72px}
+.wb-login:hover .icon-ps3{background-position:0 -90px}
+.mright20{margin-right:20px}
+.no-userinfo{text-align:center;line-height:82px;height:82px;font-size:16px;color:#cccfe8;}
+.ms-reg{color:#fff;font-size:16px;display:inline-block;margin-left:6px}
+.ms-reg:hover{text-decoration:underline;color:#fff}
+.xian{
+    border-bottom: 1px solid #aab2c6;
+    width: 80%;
+    margin: 100px auto;
+   
+}
+/*登录结束*/

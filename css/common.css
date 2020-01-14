@@ -1,0 +1,46 @@
+/*存在一些通用的样式*/
+/*css的初始化 B*/
+html, body, ul, li, p, h1, h2, h3, form, img{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+
+	
+a{
+	text-decoration: none;
+}
+input{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+body{
+	background: #fff;
+	font: normal normal 12px "宋体";
+}
+h1, h2, h3{
+	font-weight: normal;
+	font-size: 12px;
+}
+input{
+	outline: none;/*去掉获得焦点时的外边框*/
+}
+/*css的初始化 E*/
+/*css的通用样式 B*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	height: 0px;
+	line-height: 0px;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+/*css的通用样式 E*/
